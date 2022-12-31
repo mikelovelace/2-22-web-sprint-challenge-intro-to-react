@@ -4,5 +4,57 @@
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  padding: 20px;
+  font-size: 4rem;
 }
 /* write your parent styles in here for your App.js */
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  margin-top: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  background: #222;
+  color: #fff;
+  padding: 10px;
+}
+
+.name {
+  display: block;
+  background: #191919;
+  color: #e27b27;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 390px;
+  border: 1px solid #191919;
+  padding: 20px;
+  height: 80px;
+}
+
+.films {
+  text-align:left;
+}
+
+.title {
+  color: #e27b27;
+  align-items: center;
+}
+
+p {
+  font-size: 90%;
+}
